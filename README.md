@@ -5,7 +5,7 @@ Adit: these are my suggestions for using the server effectively, but send me a m
 
 1. Install anaconda. To do this on our server, first run the following command:
 
-    `wget https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.sh`
+    `wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh`
 
 Then follow the instructions at https://docs.anaconda.com/anaconda/install/linux/ for python3.7 .
   
