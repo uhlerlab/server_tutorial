@@ -3,7 +3,7 @@ Adit: these are my suggestions for using the server effectively, but send me a m
 
 ## Installing PyTorch  
 
-1. Install anaconda. To do this, first run the following command on our server:
+1. Install anaconda. To do this on our server, first run the following command:
 
     `wget https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.sh`
 
