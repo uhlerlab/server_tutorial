@@ -26,6 +26,10 @@ For the new server this should be:
 
 5. To test the installation, just run: `python` followed by `import torch`
 
+### Install Visdom 
+
+1.  Run `conda install -c conda-forge visdom`
+
 
 ## Generally Useful Tools/Commands
 1. `screen` - use this to run jobs in the background.  You can also use `nohup` if you like, but I prefer screen.
