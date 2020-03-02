@@ -1,5 +1,5 @@
-# server_tutorial
-Code for using the GPU server
+# Tutorial for using the GPU Server
+
 
 ## Installing PyTorch
 (1) Install anaconda. To do this, first run the following command on your server:
