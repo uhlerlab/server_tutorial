@@ -28,7 +28,7 @@ For the new server this should be:
 
 ### Install Visdom 
 
-1.  Run `conda install -c conda-forge visdom`
+1.  Run `conda install -c conda-forge visdom`.  On the old server, I need to run `conda install -c conda-forge jsonpatch` as well.  
 
 
 ## Generally Useful Tools/Commands
