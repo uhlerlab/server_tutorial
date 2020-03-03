@@ -7,9 +7,7 @@ Adit: these are my suggestions for using the server effectively, but send me a m
 
     `wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh`
 
-Then follow the instructions at https://docs.anaconda.com/anaconda/install/linux/ for python3.7 .  Don't forget to run `source .bashrc` after installation.   
-
-   *Make sure to run `source activate myenv` in order for the following installation to be in the right environment.  
+Then follow the instructions at https://docs.anaconda.com/anaconda/install/linux/ for python3.7 .  Don't forget to run `source .bashrc` and `source activate myenv` in order for the following installation to be in the right environment.  
   
 2. After installing conda, create a conda environment (put in a reasonable name for myenv) with:
 
