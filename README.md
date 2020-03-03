@@ -9,6 +9,7 @@ Adit: these are my suggestions for using the server effectively, but send me a m
 
 Then follow the instructions at https://docs.anaconda.com/anaconda/install/linux/ for python3.7 .  Don't forget to run `source .bashrc` after installation.   
 
+    * Make sure to run `source activate myenv` in order for the following installation to be in the right environment.  
   
 2. After installing conda, create a conda environment (put in a reasonable name for myenv) with:
 
@@ -28,7 +29,7 @@ For the new server this should be:
 
 ### Install Visdom 
 
-1.  Run `conda install -c conda-forge visdom`.  On the old server, I need to run `conda install -c conda-forge jsonpatch` as well.  
+1.  Run `conda install -c conda-forge visdom`.  I needed to run `conda install -c conda-forge jsonpatch` as well.  
 
 
 ## Generally Useful Tools/Commands
