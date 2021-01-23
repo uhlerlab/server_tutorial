@@ -29,6 +29,21 @@ For the new server this should be:
 
 1.  Run `conda install -c conda-forge visdom`.  I needed to run `conda install -c conda-forge jsonpatch` as well.  
 
+### Install Jax w/ the GPU (By Neha)
+
+1. Create a new environment in conda `conda create --name jax_env`.
+
+2. Activate the conda environment `conda activate jax_env`.
+
+3. Install tensorflow-gpu (v2.2.0) and keras-gpu (v2.4.3) `conda install tensorflow-gpu keras-gpu`.
+
+4. Make sure cuda10.1 is installed in /usr/local.
+
+5. Install Jaxlib (jaxlib==0.1.57+cuda101 -f https://storage.googleapis.com/jax-releases/jax_releases.html).
+
+6. Install Jax (v0.2.7) `conda install -c conda-forge jax`. 
+
+7. Install the Neural Tangents Kernel library (https://github.com/google/neural-tangents). 
 
 ## Generally Useful Tools/Commands
 1. `screen` - use this to run jobs in the background.  You can also use `nohup` if you like, but I prefer screen.
