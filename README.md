@@ -19,9 +19,9 @@ Then follow the instructions at https://docs.anaconda.com/anaconda/install/linux
 
 `conda install pytorch torchvision cudatoolkit=9.2 -c pytorch`
 
-For the new server this should be:
+For uhlergroup2.mit.edu this should be:
 
-`conda install pytorch torchvision cudatoolkit=10.1 -c pytorch`
+`conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.1 -c pytorch -c nvidia`
 
 5. To test the installation, just run: `python` followed by `import torch`
 
